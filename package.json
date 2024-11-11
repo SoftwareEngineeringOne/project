@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "author": "Simon Blum <simon21.blum@gmail.com>",
   "release": {
-    "branches": [
-      "main",
-      "next"
-    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
