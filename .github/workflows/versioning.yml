@@ -32,7 +32,7 @@ jobs:
       - name: "Setting up Node"
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 22
           #
       # Make sure all the dependencies are ok and installed
       - name: "Installing dependencies"
