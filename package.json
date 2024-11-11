@@ -2,6 +2,20 @@
   "name": "project",
   "version": "0.1.1",
   "author": "Simon Blum <simon21.blum@gmail.com>",
+  "branches": [
+    "+([0-9])?(.{+([0-9]),x}).x",
+    "main",
+    "next",
+    "next-major",
+    {
+      "name": "beta",
+      "prerelease": true
+    },
+    {
+      "name": "alpha",
+      "prerelease": true
+    }
+  ],
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",

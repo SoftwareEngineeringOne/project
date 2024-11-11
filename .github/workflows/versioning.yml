@@ -8,6 +8,7 @@ on:
     branches:
       - main
       - next
+      - beta
 
 jobs:
   # As per https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/ci-configurations/github-actions.md
